@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/goit-js-command-project/",
+    "build": "vite build --base=/Marvel-Studio-Fun-Page/",
     "preview": "vite preview"
   },
   "devDependencies": {
