@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Characters</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link href="https://fonts.cdnfonts.com/css/helvetica-neue-5" rel="stylesheet"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <script type="module" crossorigin src="/Marvel-Studio-Fun-Page/assets/character-df604a3b.js"></script>
+    <link rel="modulepreload" crossorigin href="/Marvel-Studio-Fun-Page/assets/modal-5a9a77d4.js">
+    <link rel="modulepreload" crossorigin href="/Marvel-Studio-Fun-Page/assets/notiflix-loading-aio-ad15ac32.js">
+    <link rel="stylesheet" href="/Marvel-Studio-Fun-Page/assets/modal-26d9f34c.css">
+    <link rel="stylesheet" href="/Marvel-Studio-Fun-Page/assets/styles-8fb74a95.css">
+  </head>
+  <body>
+    <header><header class="header">
+
+    <div class="container header-el">
+        
+            <a href="./index.html">
+                <svg class="header-logo">
+                  <use href="/Marvel-Studio-Fun-Page/assets/icons-72fd2c7e.svg#icon-logo"></use>
+                 
+                </svg>
+            </a>
+            
+              <form class="header-form" id="search-form">
+                <button class="header-btn" type="submit">
+                    <svg class="header-icon" width="18px" height="18px">
+                        <use href="/Marvel-Studio-Fun-Page/assets/icons-72fd2c7e.svg#search"></use>
+                      </svg></button>
+                <input
+                  type="text"
+                  name="searchQuery"
+                  class="header-input"
+                  placeholder="SEARCH"
+                />
+                
+              </form>
+</header>
+</header>
+    <main>
+      <section>
+        <section class="char-hero">
+  <div class="char-section container">
+    <div class="char-text-block">
+      <p class="char-subtitle char-comics-error-subtitle">Web-based platform</p>
+      <h1 class="char-title char-comics-error-title">Characters</h1>
+      <p class="char-desc char-comics-error-desc">
+        With over 70,000 characters in the Marvel Multiverse, this is the most
+        complete public listing in existence.
+      </p>
+    </div>
+    <div class="btn-position">
+      <a href="./index.html" class="char-btn back-home-btn">back home</a>
+    </div>
+  </div>
+</section>
+
+      </section>
+      <section>
+        <div class="container char-form-section">
+  <form class="char-search-form">
+    <div class="char-form-wrapper char-form-btn-wrap">
+      <p class="char-form-label">Comics</p>
+      <input
+        class="char-form-input"
+        type="text"
+        name="searchComics"
+        autocomplete="off"
+        placeholder="Enter comics"
+        required
+      />
+      <button type="submit" class="char-form-btn"></button>
+    </div>
+    <div class="char-form-wrapper">
+      <p class="char-form-label">Name</p>
+      <input
+        class="char-form-input"
+        type="text"
+        name="searchName"
+        autocomplete="off"
+        placeholder="Enter name"
+      />
+    </div>
+
+    <div class="char-form-wrapper-add">
+      <div class="char-form-wrapper">
+        <p class="char-form-label">Order by</p>
+        <select
+          class="char-form-input char-order-select"
+          data-action=""
+          name="select"
+        >
+          <option>Name</option>
+          <option>Modified</option>
+          <option>-Name</option>
+          <option>-Modified</option>
+        </select>
+      </div>
+
+      <div class="char-form-wrapper">
+        <p class="char-form-label">Date</p>
+        <input
+          class="char-form-input char-data-select"
+          name="searchDate"
+          placeholder="Select date..."
+          autocomplete="off"
+        />
+      </div>
+    </div>
+  </form>
+
+  <div class="char-card-container rc-container"></div>
+  <div id="tui-pagination-container" class="tui-pagination is-hidden"></div>
+</div>
+
+      </section>
+    </main>
+    <footer>
+      <footer class="footer">
+  <div class="container footer-container">
+    <div class="footer-wrap">
+      <a href="./index.html">
+        <svg class="footer-logo">
+          <use href="/Marvel-Studio-Fun-Page/assets/icons-72fd2c7e.svg#icon-logo-big"></use>
+        </svg>
+      </a>
+      <nav>
+        <ul class="footer-list list">
+          <li class="footer-item">
+            <a href="./character.html" class="footer-link link">Characters</a>
+          </li>
+          <li class="footer-item">
+            <a href="./comics.html" class="footer-link link">Comics</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-social">
+      <ul class="footer-soc-list list">
+        <li class="footer-soc-item">
+          <a
+            href="https://www.facebook.com/marvelstudios"
+            class="footer-soc-link link"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <svg class="footer-soc-img">
+              <use href="/Marvel-Studio-Fun-Page/assets/icons-72fd2c7e.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-soc-item">
+          <a
+            href="https://www.instagram.com/marvel"
+            class="footer-soc-link link"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <svg class="footer-soc-img">
+              <use href="/Marvel-Studio-Fun-Page/assets/icons-72fd2c7e.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-soc-item">
+          <a
+            href="https://twitter.com/Marvel"
+            class="footer-soc-link link"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <svg class="footer-soc-img">
+              <use href="/Marvel-Studio-Fun-Page/assets/icons-72fd2c7e.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="bottom-page">
+    <p class="bottom-txt">Privacy Policy Public Offering Agreement</p>
+  </div>
+</footer>
+
+    </footer>
+    <section>
+      <div class="backdrop-one display-none">
+  <div class="modal-box modal-comic-container rc-container">
+    <button class="modal-close-icon-modal" data-modal-close="">
+      <svg width="20" height="20"></svg>
+    </button>
+    <div class="skeleton-one skeleton-modal display-none">
+      <div class="skeleton-modal-img"></div>
+      <div class="skeleton-modal-text"></div>
+    </div>
+    <div class="modal-comic-container modal"></div>
+  </div>
+</div>
+
+    </section>
+    <section>
+      <div class="backdrop-two display-none">
+  <div class="modal-two modal-box-two rm-container">
+    <div class="modal-hero">
+      <button class="modal-two-close-btn">
+        <svg class="modal-two-close-icon" width="20" height="20">
+          <use class="icon" href="/Marvel-Studio-Fun-Page/assets/icons-72fd2c7e.svg#close-icon"></use>
+        </svg>
+      </button>
+
+      <div class="skeleton-two skeleton-modal display-none">
+        <div class="skeleton-modal-img"></div>
+        <div class="skeleton-modal-text"></div>
+      </div>
+
+      <div class="spray"></div>
+    </div>
+
+    <section class="comics"></section>
+  </div>
+</div>
+
+    </section>
+    
+    
+    
+  </body>
+</html>
